@@ -17,7 +17,7 @@ const ProductList = () => {
     <div>
       <h2>Product List</h2>
       <ul>
-        {products.map((produk) => (
+        {produK.map((produk) => (
           <li key={produk.id}>
             {produk.nama_produk} - {produk.kategory} - ${produk.harga} 
             <button onClick={() => dispatch(deleteProduk(produk.id))}>
